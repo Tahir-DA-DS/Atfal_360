@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
 //user router
-app.use("/v1",userRouter)
+// app.use("/v1",userRouter)
 
 //atfaldata router
 app.use("/v1", dataRouter)

@@ -6,10 +6,10 @@ const {verifyToken} = require("../middlewares/Authuser")
 
 
 // Route to get all data
-router.get("/atfals", verifyToken, getAllatfal);
-router.get("/atfalsfilter", verifyToken, filterdata)
-router.get("/dataStat", verifyToken, dataStat)
-router.get("/totalAtfal", verifyToken, countAllData)
-router.get("/download", verifyToken, downloadAtfaldata)
+router.get("/atfals", getAllatfal);
+router.get("/atfalsfilter", filterdata)
+router.get("/dataStat",  dataStat)
+router.get("/totalAtfal", countAllData)
+router.get("/download", downloadAtfaldata)
 
 module.exports = router;
