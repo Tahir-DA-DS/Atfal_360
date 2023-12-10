@@ -1,4 +1,5 @@
 const express = require("express")
+const cors = require('cors')
 const app = express()
 const connectDB = require("./db/connect")
 require("dotenv").config()
@@ -18,9 +19,7 @@ app.use(express.json())
 //atfaldata router
 app.use("/v1", dataRouter)
 
-app.get('/home', (req, res)=>{
-    res.send('welcome home')
-})
+app.use(cors())
 
 
 const start = async ()=> {
