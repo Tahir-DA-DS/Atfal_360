@@ -65,7 +65,61 @@ const seedData = [
         State:"Ondo",
         Dila: "Owo",
         Muqam:"ondo town"
+    },
+    {
+        FullName:"Suleiman",
+        Age: 14,
+        Region:"North",
+        State:"Kaduna",
+        Dila: "Kaduna",
+        Muqam:"sabo"
+    },
+
+    {
+        FullName:"Mumin",
+        Age: 16,
+        Region:"West",
+        State:"Lagos",
+        Dila: "Ikeja",
+        Muqam:"Ikeja"
+    },
+
+    {
+        FullName:"Payne John",
+        Age: 13,
+        Region:"South-West",
+        State:"Osun",
+        Dila: "Osogbo",
+        Muqam:"Osogbo"
+    },
+
+    {
+        FullName:"Qayyum",
+        Age: 9,
+        Region:"South",
+        State:"Imo",
+        Dila: "Oweri",
+        Muqam:"South-City"
+    },
+
+    {
+        FullName:"Abdullahi",
+        Age: 16,
+        Region:"North",
+        State:"Jos",
+        Dila: "Plateu",
+        Muqam:"Jos Central"
+    },
+
+    {
+        FullName:"Kim",
+        Age: 12,
+        Region:"West",
+        State:"Oyo",
+        Dila: "Ibadan",
+        Muqam:"Oyo"
     }
+
 
 ]
 
